@@ -14,3 +14,20 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+
+### dart setting
+![image](https://user-images.githubusercontent.com/6523039/136647060-c9586f53-bf48-4e92-a9cc-282d41e43bfa.png)
+
+### JavaHome Issue
+https://stackoverflow.com/questions/68569430/flutter-unable-to-find-bundled-java-versionflutter-doctor-after-updated-andro
+```bash 
+/Applications/Android Studio.app/Contents/jre/Contents/Home
+❯ cd /Applications/Android\ Studio.app/Contents/jre
+❯ ln -s ../jre jdk
+❯ ln -s "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin" jdk
+❯ flutter doctor -v
+```
+
+
